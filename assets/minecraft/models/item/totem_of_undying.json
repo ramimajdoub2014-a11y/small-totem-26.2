@@ -1,28 +1,151 @@
 {
-  "parent": "item/handheld",
+  "credit": "Small Totem Resource Pack v26.2",
+  "texture_size": [64, 64],
   "textures": {
-    "layer0": "item/totem_of_undying"
+    "0": "item/totem_of_undying"
   },
+  "elements": [
+    {
+      "name": "Head",
+      "from": [6, 20, 6],
+      "to": [10, 24, 10],
+      "faces": {
+        "north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+        "east": {"uv": [4, 0, 8, 4], "texture": "#0"},
+        "south": {"uv": [8, 0, 12, 4], "texture": "#0"},
+        "west": {"uv": [12, 0, 16, 4], "texture": "#0"},
+        "up": {"uv": [16, 0, 20, 4], "texture": "#0"},
+        "down": {"uv": [20, 0, 24, 4], "texture": "#0"}
+      }
+    },
+    {
+      "name": "Body",
+      "from": [6, 12, 6],
+      "to": [10, 20, 10],
+      "faces": {
+        "north": {"uv": [0, 4, 4, 12], "texture": "#0"},
+        "east": {"uv": [4, 4, 8, 12], "texture": "#0"},
+        "south": {"uv": [8, 4, 12, 12], "texture": "#0"},
+        "west": {"uv": [12, 4, 16, 12], "texture": "#0"},
+        "up": {"uv": [16, 4, 20, 12], "texture": "#0"},
+        "down": {"uv": [20, 4, 24, 12], "texture": "#0"}
+      }
+    },
+    {
+      "name": "LeftArm",
+      "from": [4, 14, 7],
+      "to": [6, 20, 9],
+      "faces": {
+        "north": {"uv": [0, 12, 2, 18], "texture": "#0"},
+        "east": {"uv": [2, 12, 4, 18], "texture": "#0"},
+        "south": {"uv": [4, 12, 6, 18], "texture": "#0"},
+        "west": {"uv": [6, 12, 8, 18], "texture": "#0"},
+        "up": {"uv": [8, 12, 10, 14], "texture": "#0"},
+        "down": {"uv": [10, 12, 12, 14], "texture": "#0"}
+      }
+    },
+    {
+      "name": "RightArm",
+      "from": [10, 14, 7],
+      "to": [12, 20, 9],
+      "faces": {
+        "north": {"uv": [12, 12, 14, 18], "texture": "#0"},
+        "east": {"uv": [14, 12, 16, 18], "texture": "#0"},
+        "south": {"uv": [16, 12, 18, 18], "texture": "#0"},
+        "west": {"uv": [18, 12, 20, 18], "texture": "#0"},
+        "up": {"uv": [20, 12, 22, 14], "texture": "#0"},
+        "down": {"uv": [22, 12, 24, 14], "texture": "#0"}
+      }
+    },
+    {
+      "name": "LeftLeg",
+      "from": [6, 8, 7],
+      "to": [8, 12, 9],
+      "faces": {
+        "north": {"uv": [0, 18, 2, 22], "texture": "#0"},
+        "east": {"uv": [2, 18, 4, 22], "texture": "#0"},
+        "south": {"uv": [4, 18, 6, 22], "texture": "#0"},
+        "west": {"uv": [6, 18, 8, 22], "texture": "#0"},
+        "up": {"uv": [8, 18, 10, 20], "texture": "#0"},
+        "down": {"uv": [10, 18, 12, 20], "texture": "#0"}
+      }
+    },
+    {
+      "name": "RightLeg",
+      "from": [8, 8, 7],
+      "to": [10, 12, 9],
+      "faces": {
+        "north": {"uv": [12, 18, 14, 22], "texture": "#0"},
+        "east": {"uv": [14, 18, 16, 22], "texture": "#0"},
+        "south": {"uv": [16, 18, 18, 22], "texture": "#0"},
+        "west": {"uv": [18, 18, 20, 22], "texture": "#0"},
+        "up": {"uv": [20, 18, 22, 20], "texture": "#0"},
+        "down": {"uv": [22, 18, 24, 20], "texture": "#0"}
+      }
+    },
+    {
+      "name": "LeftEye",
+      "from": [6.5, 22, 5.8],
+      "to": [7.5, 23, 6.2],
+      "faces": {
+        "north": {"uv": [0, 24, 1, 25], "texture": "#0"},
+        "south": {"uv": [1, 24, 2, 25], "texture": "#0"},
+        "east": {"uv": [2, 24, 2.4, 25], "texture": "#0"},
+        "west": {"uv": [2.4, 24, 2.8, 25], "texture": "#0"}
+      }
+    },
+    {
+      "name": "RightEye",
+      "from": [8.5, 22, 5.8],
+      "to": [9.5, 23, 6.2],
+      "faces": {
+        "north": {"uv": [3, 24, 4, 25], "texture": "#0"},
+        "south": {"uv": [4, 24, 5, 25], "texture": "#0"},
+        "east": {"uv": [5, 24, 5.4, 25], "texture": "#0"},
+        "west": {"uv": [5.4, 24, 5.8, 25], "texture": "#0"}
+      }
+    }
+  ],
   "display": {
     "thirdperson_righthand": {
       "rotation": [0, 0, 0],
       "translation": [0, 0, 0],
-      "scale": [0.5, 0.5, 0.5]
+      "scale": [0.55, 0.55, 0.55]
     },
     "thirdperson_lefthand": {
       "rotation": [0, 0, 0],
       "translation": [0, 0, 0],
-      "scale": [0.5, 0.5, 0.5]
+      "scale": [0.55, 0.55, 0.55]
     },
     "firstperson_righthand": {
       "rotation": [0, 0, 0],
       "translation": [0, 0, 0],
-      "scale": [0.5, 0.5, 0.5]
+      "scale": [0.45, 0.45, 0.45]
     },
     "firstperson_lefthand": {
       "rotation": [0, 0, 0],
       "translation": [0, 0, 0],
-      "scale": [0.5, 0.5, 0.5]
+      "scale": [0.45, 0.45, 0.45]
+    },
+    "gui": {
+      "rotation": [25, 45, 0],
+      "translation": [0, 0, 0],
+      "scale": [0.75, 0.75, 0.75]
+    },
+    "head": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": [1, 1, 1]
+    },
+    "ground": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": [0.45, 0.45, 0.45]
+    },
+    "fixed": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": [0.55, 0.55, 0.55]
     }
   }
 }
